@@ -2,6 +2,8 @@
 
 These notes are for the auto-multiple-choice test generator for Linux.  [https://www.auto-multiple-choice.net/index.en])https://www.auto-multiple-choice.net/index.en) Specifically it is for the text version of the system.
 
+This document is mainly pre-formatted question templates suitable for copy/paste into the exam.
+
 I love the auto-multiple-choice package.  I hate the documentation.  The documentation for the text package reads like the author was trying to say the absolute bare minimum necessary.  Many questions are left unanswered, and the limited number of examples are sometimes not very helpful.   
 
 [Link to the amc-txt documentation](https://www.auto-multiple-choice.net/auto-multiple-choice.en/AMC-TXT.shtml)
