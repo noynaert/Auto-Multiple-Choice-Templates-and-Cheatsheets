@@ -4,6 +4,8 @@ These notes are for the auto-multiple-choice test generator for Linux.  [https:/
 
 I love the auto-multiple-choice package.  I hate the documentation.  The documentation for the text package reads like the author was trying to say the absolute bare minimum necessary.  Many questions are left unanswered, and the limited number of examples are sometimes not very helpful.   
 
+[Link to the amc-txt documentation](https://www.auto-multiple-choice.net/auto-multiple-choice.en/AMC-TXT.shtml)
+
 ## Disclaimer
 
 I am not associated with the project.  I don't even understand a lot of it.  This document is simply a list of some code snippets that I have gotten to work for me.
