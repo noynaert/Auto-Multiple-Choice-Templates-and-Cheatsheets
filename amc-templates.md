@@ -16,23 +16,23 @@ This is a sample header I put on exams.  It allows LaTeX.  Also, it inserts a bu
 
 The bulleted list may be lifted from the header and inserted into questions if they need a bullet list.
 
-```text
-# AMC-TXT source file
-Title: Exam 01, CSC 254, Fall 2018
-PaperSize: letter
-ShuffleQuestions:0
-LaTeX: 1
-Presentation: 
-\begin{itemize}
-   \item Select the best answer for each question
-   \item This exam is closed book
-   \item Answers are worth 2 points unless otherwise noted.
-   \item Use an X to mark your answers.  
-   \item I will have whiteout available if you make a mistake.
-   \item Questions relate to Java 10 and 11. 
-   \item Use proper Java style and capitalization in your answers.
-\end{itemize}
-```
+
+     # AMC-TXT source file
+     Title: Exam 01, CSC 254, Fall 2018
+     PaperSize: letter
+     ShuffleQuestions:0
+     LaTeX: 1
+     Presentation: 
+     \begin{itemize}
+       \item Select the best answer for each question
+       \item This exam is closed book
+       \item Answers are worth 2 points unless otherwise noted.
+       \item Use an X to mark your answers.  
+       \item I will have whiteout available if you make a mistake.
+       \item Questions relate to Java 10 and 11. 
+       \item Use proper Java style and capitalization in your answers.
+    \end{itemize}
+
 
 ## Using the templates
 
