@@ -1,4 +1,4 @@
-#Auto-multiple-choice Templates and Cheatsheet
+# Auto-multiple-choice Templates and Cheatsheet
 
 These notes are for the auto-multiple-choice test generator for Linux.  [https://www.auto-multiple-choice.net/index.en])https://www.auto-multiple-choice.net/index.en) Specifically it is for the text version of the system.
 
@@ -34,32 +34,39 @@ Presentation:
 \end{itemize}
 
 
-*<lines=3> Describe the relationship between an object and its defining class.
+## Using the templates
+
+### Using Essay Templates
+
+For essay questions add your text after the *<line=n>* text. An example is below.
+
+I do have a peculiarity in my exams because I take off 1 point if a student leaves the question blank.  I do that to discourage students from skipping essay questions.  You may delte the -1 No Answer if you want to get rid of this option.      
+
+```text
+*<lines=3> Explain the universe and give two examples (3 points).
 -[0]{-1} [*-1 No Answer*]
 -[O]{0} 0
 -[P]{1} 1
 -[P]{2} 2
 +[V]{3} [_3 Correct_]
+```
 
-*[next]{b=2,m=0} Which of the following keywords is used to define a class?
-+ class
-- new
-- interface
-- public
- 
-*[ordered]{b=2,m=0} An array may contain elements of an object type.
-+ TRUE 
-- FALSE 
-**[ordered]{b=2,m=0} The following image contains different attempts to
-abstract classes.  Mark all of the answers that are correct (there may be more than one correct answer.) 
-\\
-![height=6cm]images/abstract.png!
-- Option a
-- Option b
-+ Option c
-+ Option d
+### Using Multiple Choice Templates
 
+For multiple choice add your text after the curly braces.  Then add the foils
+after the + or - signs Make sure there is only one correct answer.  I generally
+put the correct answer first and let amc shuffle the foils.
 
+```*[next]{b=2,m=0} What color was George Washington's white horse?
++ white
+- black
+- tan
+- red
+```
+
+## Essay (templates for 2 to 5 points)
+
+```text
 *<lines=3> (2 points)
 -[0]{-1} [*-1 No Answer*]
 -[O]{0} 0
@@ -89,6 +96,47 @@ abstract classes.  Mark all of the answers that are correct (there may be more t
 -[P]{3} 3
 -[V]{4} 4
 +[V]{5} [_5 Correct_]
+```
+
+# MC Multiple Choice
+
+```text
+*[next]{b=2,m=0} 
++ 
+- 
+- 
+- 
+```
+
+## True False (As True)
+
+```text
+*[ordered]{b=2,m=0} 
++ TRUE 
+- FALSE 
+```
+
+## True False (As False)
+
+```text
+*[ordered]{b=2,m=0} 
+- TRUE 
++ FALSE 
+```
+
+
+## Example of puting a picture in a question
+
+**[ordered]{b=2,m=0} The following image contains different attempts to
+abstract classes.  Mark all of the answers that are correct (there may be more than one correct answer.) 
+\\
+![height=6cm]images/abstract.png!
+- Option a
+- Option b
++ Option c
++ Option d
+
+## Example of using verbatim to control formatting
 
 *[ordered]{b=2,m=0} Does the return statement in the following method cause a syntax error?
 [verbatim]
@@ -100,19 +148,7 @@ abstract classes.  Mark all of the answers that are correct (there may be more t
 - YES, It causes a syntax error.
 + NO, It does not cause a Syntax error.
 
-
-*<lines=3> [== The rest of this exam is like Exam 2 ==]  For the rest of these
-questions, you will be writing about a class called "Circle."  The circle class has one
-data member.  It is a double named "radius."\\
-In the space below write the constructor for this class.  The constructor
-takes ones argument which is the radius.  You may either set the value of the radius
-directly, or you may assume that there is a suitable setter.
--[0]{-1} [*-1 No Answer*]
--[O]{0} 0
--[P]{1} 1
--[P]{2} 2
-+[V]{3} [_3 Correct_]
-
+## Including a picture and a caption
 
 \begin{figure}
   \caption{A picture of a star.}
