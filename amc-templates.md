@@ -127,6 +127,7 @@ put the correct answer first and let amc shuffle the foils.
 
 ## Example of puting a picture in a question
 
+```text
 **[ordered]{b=2,m=0} The following image contains different attempts to
 abstract classes.  Mark all of the answers that are correct (there may be more than one correct answer.) 
 \\
@@ -135,9 +136,12 @@ abstract classes.  Mark all of the answers that are correct (there may be more t
 - Option b
 + Option c
 + Option d
+```
+
 
 ## Example of using verbatim to control formatting
 
+```text
 *[ordered]{b=2,m=0} Does the return statement in the following method cause a syntax error?
 [verbatim]
     public static int yMethod(double a, double b){
@@ -147,13 +151,14 @@ abstract classes.  Mark all of the answers that are correct (there may be more t
 [/verbatim]
 - YES, It causes a syntax error.
 + NO, It does not cause a Syntax error.
+```
 
 ## Including a picture and a caption
 
+```text
 \begin{figure}
   \caption{A picture of a star.}
   \centering
     \includegraphics[width=2cm]{./images/star.png}
 \end{figure}
-
 ```
