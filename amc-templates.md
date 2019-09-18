@@ -1,6 +1,6 @@
 # Auto-multiple-choice Templates and Cheatsheet
 
-These notes are for the auto-multiple-choice test generator for Linux.  [https://www.auto-multiple-choice.net/index.en])https://www.auto-multiple-choice.net/index.en) Specifically it is for the text version of the system.
+These notes are for the auto-multiple-choice test generator for Linux.  [https://www.auto-multiple-choice.net/index.en](https://www.auto-multiple-choice.net/index.en) Specifically it is for the text version of the system.
 
 This document is mainly pre-formatted question templates suitable for copy/paste into the exam.
 
@@ -61,7 +61,8 @@ For multiple choice add your text after the curly braces.  Then add the foils
 after the + or - signs Make sure there is only one correct answer.  I generally
 put the correct answer first and let amc shuffle the foils.
 
-```*[next]{b=2,m=0} What color was George Washington's white horse?
+```text
+*[next]{b=2,m=0} What color was George Washington's white horse?
 + white
 - black
 - tan
@@ -102,7 +103,7 @@ put the correct answer first and let amc shuffle the foils.
 +[V]{5} [_5 Correct_]
 ```
 
-# MC Multiple Choice
+## MC Multiple Choice
 
 ```text
 *[next]{b=2,m=0} 
@@ -110,6 +111,17 @@ put the correct answer first and let amc shuffle the foils.
 - 
 - 
 - 
+```
+
+### Multiple choice without shuffle
+
+```text
+*[ordered,next]{b=2,m=0} How many different combinations may be stored in 2 bits?
+-  1
+-  2
++  4
+-  8
+- 16
 ```
 
 ## True False (As True)
@@ -166,3 +178,7 @@ abstract classes.  Mark all of the answers that are correct (there may be more t
     \includegraphics[width=2cm]{./images/star.png}
 \end{figure}
 ```
+## Math stuff
+
+* Exponent (2^8)  `$2^8$`
+* log 8 in base 2  `$\log_{2}8$`
