@@ -185,6 +185,7 @@ abstract classes.  Mark all of the answers that are correct (there may be more t
 
 ## Big Questions
 
+```text
 *<lines=10> (15 points)
 -[0]{-1} [*-1 No Answer*]
 -[O]{0} 0
@@ -199,3 +200,4 @@ abstract classes.  Mark all of the answers that are correct (there may be more t
 -[O]{13} 13
 -[O]{14} 14
 +[V]{15} [_15 Correct_]
+```
