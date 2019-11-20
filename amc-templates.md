@@ -191,13 +191,9 @@ abstract classes.  Mark all of the answers that are correct (there may be more t
 -[P]{1} 1
 -[P]{2} 2
 -[P]{3} 3
--[V]{4} 4
 -[O]{5} 5
--[O]{6} 6
--[O]{7} 7
--[O]{8} 8
+-[O]{7.5} 7.5
 -[O]{9} 9
--[O]{10} 10
 -[O]{11} 11
 -[O]{12} 12
 -[O]{13} 13
