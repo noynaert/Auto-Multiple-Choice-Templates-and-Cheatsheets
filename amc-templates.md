@@ -182,3 +182,24 @@ abstract classes.  Mark all of the answers that are correct (there may be more t
 
 * Exponent (2^8)  `$2^8$`
 * log 8 in base 2  `$\log_{2}8$`
+
+## Big Questions
+
+*<lines=10> (15 points)
+-[0]{-1} [*-1 No Answer*]
+-[O]{0} 0
+-[P]{1} 1
+-[P]{2} 2
+-[P]{3} 3
+-[V]{4} 4
+-[O]{5} 5
+-[O]{6} 6
+-[O]{7} 7
+-[O]{8} 8
+-[O]{9} 9
+-[O]{10} 10
+-[O]{11} 11
+-[O]{12} 12
+-[O]{13} 13
+-[O]{14} 14
++[V]{15} [_15 Correct_]
