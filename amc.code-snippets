@@ -1,0 +1,208 @@
+{
+  //See the code snippet generator at https://snippet-generator.app/
+  // Place your MC-Projects workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+  // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+  // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+  // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+  // Placeholders with the same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"scope": "javascript,typescript",
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+  "Multiple Choice": {
+    "prefix": "MC",
+    "body": ["*[next]{b=2,m=0} $1", "+ $2", "- $3", "- $4", "- $5"],
+    "description": "Multiple Choice"
+  },
+  "Ordered Multiple Choice": {
+    "prefix": "OMC",
+    "body": ["*[ordered,next]{b=2,m=0} $1", "-  $2", "-  $3", "+  $4", "-  $5"],
+    "description": "Ordered Multiple Choice"
+  },
+  "True False as True": {
+    "prefix": "TTF",
+    "body": ["*[ordered]{b=2,m=0} $1", "+ TRUE", "- FALSE"],
+    "description": "True False as True"
+  },
+  "True False as False": {
+    "prefix": "FTF",
+    "body": ["*[ordered]{b=2,m=0} $1", "- TRUE", "+ FALSE"],
+    "description": "True False as False"
+  },
+  "Verbatim": {
+    "prefix": "VERBATIM",
+    "body": ["[verbatim]", "$0", "[/verbatim]"],
+    "description": "Verbatim"
+  },
+  "2 point essay": {
+    "prefix": "ESSAY02",
+    "body": [
+      "*<lines=1> $0 (2 points)",
+      "-[0]{-1} [*-1 No Answer*]",
+      "-[O]{0} 0",
+      "-[P]{1} 1",
+      "+[V]{2} [_2 Correct_]",
+      ""
+    ],
+    "description": "2 point essay"
+  },
+  "2 point essay by half points": {
+    "prefix": "ESSAY02.5",
+    "body": [
+      "*<lines=1> $0 (2 points)",
+      "-[0]{-1} [*-1 No Answer*]",
+      "-[O]{0} 0",
+      "-[0.5]{0.5} 0.5",
+      "-[1]{1} 1",
+      "-[1.5]{1.5} 1.5",
+      "+[V]{2} [_2 Correct_]"
+    ],
+    "description": "2 point essay by half points"
+  },
+  "3 point essay": {
+    "prefix": "ESSAY03",
+    "body": [
+      "*<lines=4> $0 (3 points)",
+      "-[0]{-1} [*-1 No Answer*]",
+      "-[O]{0} 0",
+      "-[P]{1} 1",
+      "-[P]{2} 2",
+      "+[V]{3} [_3 Correct_]",
+      ""
+    ],
+    "description": "3 point essay"
+  },
+  "4 point essay": {
+    "prefix": "ESSAY04",
+    "body": [
+      "*<lines=4> $0 (4 points)",
+      "-[0]{-1} [*-1 No Answer*]",
+      "-[O]{0} 0",
+      "-[P]{1} 1",
+      "-[P]{2} 2",
+      "-[P]{3} 3",
+      "+[V]{4} [_4 Correct_]"
+    ],
+    "description": "4 point essay"
+  },
+  "5 point essay": {
+    "prefix": "ESSAY05",
+    "body": [
+      "*<lines=7> $0 (5 points)",
+      "-[0]{-1} [*-1 No Answer*]",
+      "-[O]{0} 0",
+      "-[P]{1} 1",
+      "-[P]{2} 2",
+      "-[P]{3} 3",
+      "-[V]{4} 4",
+      "+[V]{5} [_5 Correct_]"
+    ],
+    "description": "5 point essay"
+  },
+  "8 point essay": {
+    "prefix": "ESSAY08",
+    "body": [
+      "*<lines=7> $0 (8 points)",
+      "-[0]{-1} [*-1 No Answer*]",
+      "-[O]{0} 0",
+      "-[P]{1} 1",
+      "-[P]{2} 2",
+      "-[P]{3} 3",
+      "-[V]{4} 4",
+      "-[V]{5} 5",
+      "-[V]{6} 6",
+      "-[V]{7} 7",
+      "+[V]{8}[_8 Correct_]"
+    ],
+    "description": "8 point essay"
+  },
+  "10 point essay": {
+    "prefix": "ESSAY10",
+    "body": [
+      "*<lines=7> $0 (10 points)",
+      "-[0]{-1} [*-1 No Answer*]",
+      "-[O]{0} 0",
+      "-[P]{1} 1",
+      "-[P]{2} 2",
+      "-[P]{3} 3",
+      "-[V]{4} 4",
+      "-[V]{5} 5",
+      "-[V]{6} 6",
+      "-[V]{7} 7",
+      "-[V]{8} 8",
+      "-[V]{9} 9",
+      "+[V]{10}[_10 Correct_]"
+    ],
+    "description": "10 point essay"
+  },
+  "15 point essay": {
+    "prefix": "ESSAY15",
+    "body": [
+      "*<lines=10> $0 (15 points)",
+      "-[0]{-1} [*-1 No Answer*]",
+      "-[O]{0} 0",
+      "-[P]{1} 1",
+      "-[P]{2} 2",
+      "-[P]{3} 3",
+      "-[O]{5} 5",
+      "-[O]{7.5} 7.5",
+      "-[O]{9} 9",
+      "-[O]{11} 11",
+      "-[O]{12} 12",
+      "-[O]{13} 13",
+      "-[O]{14} 14",
+      "+[V]{15} [_15 Correct_]"
+    ],
+    "description": "15 point essay"
+  },
+  "20 point essay": {
+    "prefix": "ESSAY20",
+    "body": [
+      "*<lines=15> $0 (20points)",
+      "-[0]{-1} [*-1 No Answer*]",
+      "-[O]{0} 0",
+      "-[P]{1} 1",
+      "-[P]{2} 2",
+      "-[P]{5} 5",
+      "-[O]{8} 8",
+      "-[O]{10} 10",
+      "-[O]{12} 12",
+      "-[O]{15} 15",
+      "-[O]{18} 18",
+      "-[O]{19} 19",
+      "+[V]{20} [_20 Correct_]"
+    ],
+    "description": "20 point essay"
+  },
+  "Center text": {
+    "prefix": "CENTER",
+    "body": [
+      "\\begin{center}",
+      "\\rule{12cm}{1pt}%",
+      "",
+      "{\\LARGE $1}",
+      "",
+      "{\\Large $2}",
+      "",
+      "\\end{center}"
+    ],
+    "description": "Center text"
+  },
+  "Itemized List": {
+    "prefix": "ITEMIZED",
+    "body": [
+      "\\begin{itemize}",
+      "   \\item $1",
+      "   \\item $2",
+      "\\end{itemize}"
+    ],
+    "description": "Itemized List"
+  }
+}
