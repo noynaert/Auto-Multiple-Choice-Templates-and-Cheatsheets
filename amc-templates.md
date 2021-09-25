@@ -44,7 +44,7 @@ The bulleted list may be lifted from the header and inserted into questions if t
 
 For essay questions add your text after the *<line=n>* text. An example is below.
 
-I do have a peculiarity in my exams because I take off 1 point if a student leaves the question blank.  I do that to discourage students from skipping essay questions.  You may delte the -1 No Answer if you want to get rid of this option.      
+I do have a peculiarity in my exams because I take off 1 point if a student leaves the question blank.  I do that to discourage students from skipping essay questions.  You may delete the -1 No Answer if you want to get rid of this option.      
 
 ```text
 *<lines=3> Explain the universe and give two examples (3 points).
